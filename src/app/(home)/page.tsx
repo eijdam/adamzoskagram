@@ -19,7 +19,7 @@ export default function HomePage() {
         // Show a personalized message if the user is signed in
         <Typography variant="h4">Hello, {session.user?.name}!</Typography>
       ) : (
-        // Show a message prompting the user to log in if they're not signed in
+        // Show a message prompting the very user to log in if they're not signed in
         <Typography variant="h4">Please log in to access personalized content.</Typography>
       )}
     </div>
