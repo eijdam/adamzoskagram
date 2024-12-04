@@ -12,7 +12,7 @@ export default function SearchBar() {
   return (      
 
 
-        <Typography> Hladanie profilu </Typography>
+        <Typography> Hladanie aprofilu </Typography>
 
  );
 }
